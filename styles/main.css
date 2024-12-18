@@ -117,4 +117,60 @@ cursor: pointer;
 .main-pad{
   padding-top: 200px;
 }
-
+footer{
+  margin-top: 300px;
+}
+.top-foot{
+  height: 730px;
+  background-image: url('/images/Rectangle.png');
+  background-color: #265A6A;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.first-top{
+  display: flex;
+}
+.about-foot{
+  display: flex;
+ flex-direction: column;
+ gap: 30px;
+ color: white;
+}
+.rasm-foot{
+  width: 50px;
+  height: 30px;
+}
+.ceo{
+  color: #AABFC6;
+}
+.bottom-p{
+  width: 344px;
+  height: 83px;
+  color: #787878;
+}
+.bottom-logo{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bottom-icons{
+  display: flex;
+  gap: 10px;
+}
+.bottom-foot{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  height: 400px;
+}
+.bottom-list strong{
+  color: #08546C;
+}
+.bottom-list ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  color: #787878;
+}
