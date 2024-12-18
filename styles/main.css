@@ -93,84 +93,84 @@ section h2 {
   align-content: space-between;
   padding-top: 40px;
 }
-.img-main h1{
-color: #08546C;
+.img-main h1 {
+  color: #08546c;
 }
-.img-main p{
+.img-main p {
   color: #757575;
 }
-.img-main button{
+.img-main button {
   background-color: transparent;
 }
-.img-main button:hover{
+.img-main button:hover {
   background-color: transparent;
-  color:#FFA800;
+  color: #ffa800;
 }
-.yellow-btn{
-color: #FFA800;
-cursor: pointer;
-}
-.yellow-btn:hover{
-  color: #FFA800;
+.yellow-btn {
+  color: #ffa800;
   cursor: pointer;
-  }
-.main-pad{
+}
+.yellow-btn:hover {
+  color: #ffa800;
+  cursor: pointer;
+}
+.main-pad {
   padding-top: 200px;
 }
-footer{
+footer {
   margin-top: 300px;
 }
-.top-foot{
+.top-foot {
   height: 730px;
-  background-image: url('/images/Rectangle.png');
-  background-color: #265A6A;
+  background-image: url("/images/Rectangle.png");
+  background-color: #265a6a;
   padding-top: 100px;
   display: flex;
   justify-content: space-between;
 }
-.first-top{
+.first-top {
   display: flex;
 }
-.about-foot{
+.about-foot {
   display: flex;
- flex-direction: column;
- gap: 30px;
- color: white;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
 }
-.rasm-foot{
+.rasm-foot {
   width: 50px;
   height: 30px;
 }
-.ceo{
-  color: #AABFC6;
+.ceo {
+  color: #aabfc6;
 }
-.bottom-p{
+.bottom-p {
   width: 344px;
   height: 83px;
   color: #787878;
 }
-.bottom-logo{
+.bottom-logo {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.bottom-icons{
+.bottom-icons {
   display: flex;
   gap: 10px;
 }
-.bottom-foot{
+.bottom-foot {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
   height: 400px;
 }
-.bottom-list strong{
-  color: #08546C;
+.bottom-list strong {
+  color: #08546c;
 }
-.bottom-list ul{
+.bottom-list ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap:15px;
+  gap: 15px;
   color: #787878;
 }
