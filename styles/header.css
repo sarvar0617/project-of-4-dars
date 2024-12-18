@@ -1,0 +1,136 @@
+.head-list ul {
+  list-style-type: none;
+  display: flex;
+  width: 480px;
+  justify-content: space-between;
+  color: white;
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+  align-items: center;
+}
+header {
+  height: 100vh;
+  background-color: #07374a;
+  background-image: url("/images/backround-head.png");
+}
+.nav-btn {
+  width: 140px;
+  height: 58px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  background-color: #145e76;
+  color: white;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.nav-btn:hover {
+  width: 140px;
+  height: 58px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  background-color: #1d7e9e;
+  color: white;
+  font-size: 18px;
+}
+.about-main {
+  width: 537px;
+  height: 240px;
+  font-size: 64px;
+}
+.about-p {
+  font-size: 18px;
+  width: 511px;
+  height: 58px;
+  color: #849499;
+}
+.left-info {
+  color: white;
+  width: 537px;
+  height: 544px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.border-me {
+  width: 195px;
+  height: 65px;
+  border-radius: 30px;
+  background-color: #094556;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.border-me:hover {
+  width: 195px;
+  height: 65px;
+  border-radius: 30px;
+  background-color: #107996;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.border-me p {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  cursor: pointer;
+}
+.btn-left {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.btn-hire {
+  background-color: #ffa63a;
+  width: 140px;
+  height: 60px;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+}
+.btn-hire:hover {
+  background-color: transparent;
+  width: 140px;
+  height: 60px;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+}
+.btn-work {
+  background-color: transparent;
+  width: 140px;
+  height: 60px;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #849499;
+}
+.btn-work:hover {
+  background-color: #ffa63a;
+  width: 140px;
+  height: 60px;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+}
+.my-photo {
+  width: 600px;
+  border-radius: 50%;
+}
+.head-bottom {
+  position: relative;
+  margin-top: 100px;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}

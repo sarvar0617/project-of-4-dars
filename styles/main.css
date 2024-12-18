@@ -1,0 +1,120 @@
+.first-head {
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-between;
+}
+.head-bottom h1 {
+  text-align: center;
+  list-style-type: none;
+  color: #08546c;
+  padding-top: 20px;
+}
+.head-bottom ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 48px;
+  justify-content: space-around;
+  text-align: center;
+  color: #08546c;
+  padding-top: 10px;
+}
+.sts {
+  font-size: 18px;
+  text-align: center;
+}
+.main-index {
+  position: relative;
+  top: 250px;
+  height: 2125px;
+}
+section h2 {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #265a6a;
+}
+.service {
+  text-align: center;
+  color: #08546c;
+  font-size: 45px;
+  padding-top: 20px;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.child {
+  width: 215px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.child p {
+  font-size: 16px;
+}
+.space-child {
+  width: 273px;
+  height: 251px;
+  box-shadow: 0px 41.78px 33.42px 0px #0000000d;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.child1 {
+  background-color: #08546c;
+  color: white;
+}
+.skills {
+  padding-top: 40px;
+}
+.work-p {
+  width: 570px;
+  height: 85px;
+  font-size: 18px;
+  display: flex;
+  padding-top: 40px;
+  text-align: center;
+}
+.top-info-main {
+  display: flex;
+
+  justify-content: space-between;
+}
+.img-main {
+  width: 515px;
+  height: 588px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  padding-top: 40px;
+}
+.img-main h1{
+color: #08546C;
+}
+.img-main p{
+  color: #757575;
+}
+.img-main button{
+  background-color: transparent;
+}
+.img-main button:hover{
+  background-color: transparent;
+  color:#FFA800;
+}
+.yellow-btn{
+color: #FFA800;
+cursor: pointer;
+}
+.yellow-btn:hover{
+  color: #FFA800;
+  cursor: pointer;
+  }
+.main-pad{
+  padding-top: 200px;
+}
+
