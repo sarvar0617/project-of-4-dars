@@ -13,6 +13,9 @@
     </style>
   </head>
   <body>
+    <div class="load">
+      <img src="/images/Pulse@1x-1.0s-200px-200px.gif" alt="Loading...">
+    </div>
     <header>
       <nav class="container">
         <section><img src="/images/logo-head.svg" /></section>
@@ -256,5 +259,17 @@
         </div>
       </section>
     </footer>
+    
+  <script>
+    // JavaScript kodni ulash
+    let load = document.querySelector(".load");
+    window.addEventListener("load", () => {
+      load.classList.remove("load-none");
+    });
+
+    setTimeout(() => {
+      load.classList.add("load-none");
+    }, 2000);
+  </script>
   </body>
 </html>
